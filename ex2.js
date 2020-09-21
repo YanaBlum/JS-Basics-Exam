@@ -92,4 +92,19 @@ const expenses = [
 ]
 
 
-// Your code here
+
+const getTotalByCategory = function(category){
+  let total = 0;
+   for(let i = 0; i < expenses.length ; i++){
+    if(expenses[i].category === category){
+      total += expenses[i].amount;
+    }
+}
+return total;
+}
+console.log(getTotalByCategory("food"))
+
+
+
+
+getTotalByCategory('food')
