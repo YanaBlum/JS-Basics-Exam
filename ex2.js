@@ -102,9 +102,9 @@ const getTotalByCategory = function(category){
 }
 return total;
 }
-// console.log(getTotalByCategory("food"))
+console.log(getTotalByCategory("food"))
 
 
 
 
-// getTotalByCategory('food')
+getTotalByCategory('food')

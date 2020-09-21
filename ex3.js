@@ -14,4 +14,4 @@ task.markCompleted()
 task.editProp('name','doobi')
 task.editProp('time', 20)
 
-// console.log(task)
+console.log(task)
